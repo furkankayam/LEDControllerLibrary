@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map For LEDController
+#######################################
+
+#######################################
+# Keywords (KEYWORD1)
+#######################################
+
+LEDController    KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init        KEYWORD2
+chargingEffect    KEYWORD2
+movingToChargeStationEffect    KEYWORD2
+loadEffect    KEYWORD2
+unloadEffect    KEYWORD2
+goEffect    KEYWORD2
+stopEffect    KEYWORD2
+
+#######################################
+# Macros (MACRO)
+#######################################
+
+LED_ON       MACRO
+LED_OFF      MACRO
+
+#######################################
+# Objects (OBJECT)
+#######################################
+
+_leds       OBJECT
+
+#######################################
+# Parameters (PARAMETER)
+#######################################
+
+_pin        PARAMETER
+_numLEDs     PARAMETER
+color       PARAMETER
+i           PARAMETER
+delayMs     PARAMETER
+mid         PARAMETER
