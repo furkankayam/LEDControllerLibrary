@@ -7,7 +7,8 @@ LEDController::LEDController(int pin, int numLEDs) {
 }
 
 void LEDController::init() {
-    FastLED.addLeds<WS2812, _pin, GRB>(_leds, _numLEDs);
+    const int pin = _pin;
+    FastLED.addLeds<WS2812, pin, GRB>(_leds, _numLEDs);
 }
 
 void LEDController::chargingEffect() {
