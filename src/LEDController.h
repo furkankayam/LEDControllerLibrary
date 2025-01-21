@@ -1,7 +1,7 @@
 #ifndef LEDCONTROLLER_H
 #define LEDCONTROLLER_H
 
-#include "FastLED-master/src/FastLED.h"
+#include <FastLED.h>
 
 class LEDController {
 public:
